@@ -30,29 +30,40 @@ import pageobject.GiftCollectionPageObject;
 				driver.get(read.getUrl());
 				GiftCollectionPageObject gift=new GiftCollectionPageObject(driver);
 		       extent.createReport();
-				extent.createTest("home page 3");
+				extent.createTest(getClass().getSimpleName());
 				snap=new Snapshot();
-				extent.logPass("successfully launched");
+				extent.logPass("successfully launched the browser");
 				gift.clickOnGift();
 				Thread.sleep(3000);
+				extent.logPass("successfully clicked on gift");
 				gift.hover();
 				Thread.sleep(3000);
+				extent.logPass("successfully hovered on gift");
 				gift.clickOnChoose();
+				extent.logPass("successfully clicked on choose gift");
 				Thread.sleep(3000);
 				gift.getText();
 				Thread.sleep(3000);
+				extent.logPass("successfully get text like price range");
 				gift.insertAccount();
 				Thread.sleep(3000);
+				extent.logPass("successfully inserted amount");
 				gift.insertDate();
 				Thread.sleep(3000);
+				extent.logPass("successfully inserted date");
 				gift.clickNext();
+				snap.takeSnapshot(driver);
 				Thread.sleep(3000);
 				gift.sendText("anuja","avni","avni@gmail.com","anuja@gmail.com","657657");
 				Thread.sleep(3000);
+				extent.logPass("successfully added details");
 				gift.clickConfirm();
+				
      }
 		@AfterClass
 		public void close() {
 			driver.close();
+			extent.endReport();
 		}
+		
 		}

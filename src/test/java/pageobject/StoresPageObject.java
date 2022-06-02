@@ -29,12 +29,14 @@ public class StoresPageObject {
 
 	public void textContain(String string) {
 		helper.textContains(StoresUi.heading, string);
+		log.info("successfully verified text");
 		
 	}
 
 	public void clickOnviewDetails() {
 		helper.explicitWaitOfvisibilityOfElementLocated(StoresUi.viewDetails, 50);
 		helper.click(StoresUi.viewDetails);
+		log.info("successfully viewd details");
 		
 	}
 
@@ -44,6 +46,7 @@ public class StoresPageObject {
 	public void clickOnStores() {
 		//helper.explicitWaitOfvisibilityOfElementLocated(StoresUi.viewDetails, 50);
 		helper.click(StoresUi.store);
+		log.info("successfully clicked");
 		
 	}
 
@@ -51,6 +54,7 @@ public class StoresPageObject {
 	public void clickOnLocation() {
 		helper.explicitWaitOfvisibilityOfElementLocated(StoresUi.click, 50);
 		helper.click(StoresUi.click);
+		log.info("successfully clicked on location");
 		
 	}
 
@@ -58,6 +62,7 @@ public class StoresPageObject {
 	public void clickOnLocation1() {
 		helper.explicitWaitOfvisibilityOfElementLocated(StoresUi.viewDetails, 50);
 		helper.click(StoresUi.click);
+		log.info("successfully clicked");
 		
 	}
 
@@ -68,6 +73,7 @@ public class StoresPageObject {
 	public void getTitle(String string) {
 		
 		helper.getTitle(string);
+		log.info("successfully got text");
 		
 	}
 

@@ -75,7 +75,7 @@ public class HomePage2 {
 	}
 
    public void checkout() {
-		helper.click(Home2Ui.checkout);
+		helper.clickExecuter(Home2Ui.checkout);
 		log.info("checkout successfully");
 		
 	}

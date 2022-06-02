@@ -78,6 +78,7 @@ public class Homepage {
 
 	public void verifyProduct() {
 		helper.containsText(HomeUi.text);
+		log.info("successfully verified product");
 		
 	}
 

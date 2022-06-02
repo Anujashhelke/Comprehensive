@@ -1,0 +1,66 @@
+2022-05-22 16:22:04.418 [INFO ] [main] Logs - clicked successfully
+2022-05-22 16:22:08.286 [DEBUG] [main] Logs - clicked  successfully
+2022-05-22 16:22:10.440 [INFO ] [main] Logs - successfully got text
+2022-05-22 16:22:16.111 [INFO ] [main] Logs - successfully clicked on carriers
+2022-05-22 16:22:19.264 [INFO ] [main] Logs - successfully clicked on apply
+2022-05-22 16:22:25.253 [INFO ] [main] Logs - successfully clicked on apply
+2022-05-22 16:22:33.172 [INFO ] [main] Logs - successfully clicked
+2022-05-22 16:22:36.606 [INFO ] [main] Logs - successfully closed
+2022-05-22 16:22:38.040 [INFO ] [main] Logs - successfully clicked
+2022-05-22 16:22:38.262 [INFO ] [main] Logs - successfully got
+2022-05-22 16:22:38.500 [INFO ] [main] Logs - successfully hovered
+2022-05-22 16:22:40.698 [INFO ] [main] Logs - successfully checked
+2022-05-22 16:22:42.751 [INFO ] [main] Logs - successfully got
+2022-05-22 16:22:45.011 [INFO ] [main] Logs - successfully entered
+2022-05-22 16:22:47.166 [INFO ] [main] Logs - successfully clicked
+2022-05-22 16:23:01.555 [DEBUG] [main] Logs - clicked successfully
+2022-05-22 16:23:04.705 [DEBUG] [main] Logs - text sended successfully
+2022-05-22 16:23:08.708 [INFO ] [main] Logs - entered successfully
+2022-05-22 16:23:11.955 [DEBUG] [main] Logs - popup closed successfully
+2022-05-22 16:23:15.085 [INFO ] [main] Logs - successfully verified product
+2022-05-22 16:23:18.492 [INFO ] [main] Logs - hover successfully
+2022-05-22 16:23:22.691 [INFO ] [main] Logs - clicked successfully
+2022-05-22 16:23:26.026 [INFO ] [main] Logs - closed successfully
+2022-05-22 16:23:29.274 [INFO ] [main] Logs - hovered successfully
+2022-05-22 16:23:33.522 [INFO ] [main] Logs - addedd on cart successfully
+2022-05-22 16:23:38.718 [INFO ] [main] Logs - added successfully
+2022-05-22 16:23:44.788 [INFO ] [main] Logs - quantity selected successfully
+2022-05-22 16:23:47.854 [INFO ] [main] Logs - text got successfully
+2022-05-22 16:23:50.973 [INFO ] [main] Logs - checkout successfully
+2022-05-22 16:23:55.433 [INFO ] [main] Logs - details added successfully
+2022-05-22 16:24:06.752 [DEBUG] [main] Logs - clicked successfully
+2022-05-22 16:24:09.826 [DEBUG] [main] Logs - verified text
+2022-05-22 16:24:14.516 [DEBUG] [main] Logs - clicked on customer stories
+2022-05-22 16:24:17.576 [DEBUG] [main] Logs - successfully got customer response
+2022-05-22 16:24:29.465 [INFO ] [main] Logs - clicked successfully
+2022-05-22 16:24:32.671 [INFO ] [main] Logs - hovered successfully
+2022-05-22 16:24:36.303 [INFO ] [main] Logs - choosed successfully
+2022-05-22 16:24:39.393 [INFO ] [main] Logs - successfully insert amount
+2022-05-22 16:24:42.548 [INFO ] [main] Logs - successfully insert amount
+2022-05-22 16:24:45.950 [INFO ] [main] Logs - successfully insert month
+2022-05-22 16:24:49.045 [INFO ] [main] Logs - successfully clicked on next
+2022-05-22 16:24:52.163 [INFO ] [main] Logs - successfully added receipnt name
+2022-05-22 16:24:52.325 [INFO ] [main] Logs - successfully added customer name
+2022-05-22 16:24:52.486 [INFO ] [main] Logs - successfully added receipnt mail
+2022-05-22 16:24:52.637 [INFO ] [main] Logs - successfully added customer mail
+2022-05-22 16:24:52.763 [INFO ] [main] Logs - successfully added phone
+2022-05-22 16:24:55.847 [INFO ] [main] Logs - clicked on cinfirm
+2022-05-22 16:25:03.262 [INFO ] [main] Logs - successfully hover
+2022-05-22 16:25:03.930 [INFO ] [main] Logs - successfully clicked
+2022-05-22 16:25:06.791 [INFO ] [main] Logs - successfully added email
+2022-05-22 16:25:07.022 [INFO ] [main] Logs - successfully added password
+2022-05-22 16:25:07.983 [INFO ] [main] Logs - successfully submitted
+2022-05-22 16:25:10.048 [INFO ] [main] Logs - successfully got error massage
+2022-05-22 16:25:10.276 [INFO ] [main] Logs - successfully submitted
+2022-05-22 16:25:10.371 [INFO ] [main] Logs - successfully verified
+2022-05-22 16:25:19.043 [INFO ] [main] Logs - successfully clicked
+2022-05-22 16:25:22.097 [INFO ] [main] Logs - successfully verified text
+2022-05-22 16:25:26.656 [INFO ] [main] Logs - successfully viewd details
+2022-05-22 16:25:29.922 [INFO ] [main] Logs - successfully clicked on location
+2022-05-22 16:25:32.115 [INFO ] [main] Logs - successfully got text
+2022-05-22 16:25:39.239 [INFO ] [main] Logs - successfully hover
+2022-05-22 16:25:41.136 [INFO ] [main] Logs - successfully clicked
+2022-05-22 16:25:44.166 [DEBUG] [main] Logs - popup closed successfully
+2022-05-22 16:25:44.412 [INFO ] [main] Logs - successfully hovered
+2022-05-22 16:25:50.688 [INFO ] [main] Logs - successfully clicked
+2022-05-22 16:25:52.786 [INFO ] [main] Logs - successfully verified text

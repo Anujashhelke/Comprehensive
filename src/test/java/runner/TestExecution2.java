@@ -27,39 +27,56 @@ import utility.Snapshot;
 			read=new ConfigRead();
 			extent =new ExtentReport();
 			driver=setUp();
-			driver.get("https://www.urbanladder.com");
+			driver.get(read.getUrl());
 			HomePage2 h=new HomePage2(driver);
-	       extent.createReport();
-			extent.createTest("home page 2");
 			snap=new Snapshot();
+		
+	       extent.createReport();
+			extent.createTest(getClass().getSimpleName());
+		
 			extent.logPass("successfully launched");
 			h.hover();
+			extent.logPass("successfully hovered");
 			Thread.sleep(3000);
 			h.clickOnLaptop();
+			extent.logPass("successfully clicked on product");
 			Thread.sleep(3000);
 			h.closePopup();
+			extent.logPass("successfully close popup");
 			Thread.sleep(3000);
 			h.hoverOnProduct();
+			extent.logPass("successfully hovered");
 			Thread.sleep(3000);
 			h.clickOnAdd();
+			extent.logPass("successfully clicked");
 			Thread.sleep(3000);
 			h.addToCart();
+			extent.logPass("successfully added to cart");
 			Thread.sleep(3000);
 			h.quantity();
+			extent.logPass("successfully added quantity");
 			Thread.sleep(3000);
 			h.Price();
+			extent.logPass("successfully got the price");
 			Thread.sleep(3000);
 			h.checkout();
+			extent.logPass("successfully checkout ");
 			Thread.sleep(3000);
 			h.addDetails();
+			extent.logPass("successfully added details");
+			snap.takeSnapshot(driver);
 			Thread.sleep(3000);
-			extent.endReport();
+			
+			extent.logPass(path);
+			
 			
 
 }
-	@AfterMethod
-	public void quite() {
+	@AfterClass
+	public void close() {
 		driver.close();
+		extent.endReport();
 	}
+	
 	}
 

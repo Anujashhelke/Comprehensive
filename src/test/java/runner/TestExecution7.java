@@ -30,30 +30,36 @@ import pageobject.StoresPageObject;
 					driver=setUp();
 					driver.get(read.getUrl());
 					ProductDetailsPageObject h=new ProductDetailsPageObject (driver);
-			       extent.createReport();
-					extent.createTest("home page 6");
+			      extent.createReport();
+					extent.createTest(getClass().getSimpleName());
 					snap=new Snapshot();
-					extent.logPass("successfully launched");
+					extent.logPass("successfully launched browser");
 					h.hoverOndecor();
+					extent.logPass("successfully hovered on decor");
 					//Thread.sleep(3000);
 					h.clickOnDoormat();
+					extent.logPass("clicked on Doormat");
 					h.closePopup();
 					h.hoverOnRecommended();
-					
+					extent.logPass("successfully hovered on recommended");
 					//Thread.sleep(3000);
 					//h.clickOnArrival();
 					Thread.sleep(3000);
 					h.clickOnProduct();
+					extent.logPass("successfully clicked on product");
 					Thread.sleep(2000);
 					h.textContains("Kyra Door Mat");
+					extent.logPass("successfully verified");
 					Thread.sleep(3000);
+					
 
 		}	
-			@AfterClass
-				public void close() {
-			driver.close();
-		}
 			
+			@AfterClass
+			public void close() {
+				driver.close();
+				extent.endReport();
+			}	
 		
 
 

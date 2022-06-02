@@ -44,24 +44,31 @@ public class TestExecution1 extends BaseClass {
 		//h.closePopUp();
 		Thread.sleep(3000);
 		h.clickOnSearch();
+		extent.logPass("successfully launched");
 		Thread.sleep(3000);
 		h.sendText();
+		extent.logPass("successfully sent text");
 		Thread.sleep(3000);
 		h.clickOnEnter();
+		extent.logPass("successfully clicked on enter");
 		Thread.sleep(3000);
 		h.closePopup();
+		extent.logPass("successfully closed popup");
 		Thread.sleep(3000);
 		h.verifyProduct();
+		extent.logPass("successfully product is verified");
+		path=snap.takeSnapshot(driver);
 		extent.logPass(path);
 		//h.textContain();
-		extent.endReport();
+		
 		
 	}
-	@AfterMethod
-	public void closeTest() {
-		close();
+	@AfterClass
+	public void close() {
 		driver.close();
+		extent.endReport();
 	}
+	
 	
 	}
 

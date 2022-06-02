@@ -1,0 +1,26 @@
+2022-05-23 13:50:21.105 [INFO ] [main] Logs - successfully clicked on carriers
+2022-05-23 13:50:24.377 [INFO ] [main] Logs - successfully clicked on apply
+2022-05-23 13:50:37.453 [INFO ] [main] Logs - successfully clicked on apply
+2022-05-23 13:50:57.665 [DEBUG] [main] Logs - clicked successfully
+2022-05-23 13:51:00.801 [DEBUG] [main] Logs - text sended successfully
+2022-05-23 13:51:05.340 [INFO ] [main] Logs - entered successfully
+2022-05-23 13:51:08.789 [DEBUG] [main] Logs - popup closed successfully
+2022-05-23 13:51:13.245 [INFO ] [main] Logs - successfully verified product
+2022-05-23 13:51:19.148 [INFO ] [main] Logs - hover successfully
+2022-05-23 13:51:23.483 [INFO ] [main] Logs - clicked successfully
+2022-05-23 13:51:27.390 [INFO ] [main] Logs - closed successfully
+2022-05-23 13:51:30.608 [INFO ] [main] Logs - hovered successfully
+2022-05-23 13:51:35.196 [INFO ] [main] Logs - addedd on cart successfully
+2022-05-23 13:51:40.078 [INFO ] [main] Logs - added successfully
+2022-05-23 13:51:45.737 [INFO ] [main] Logs - quantity selected successfully
+2022-05-23 13:51:48.802 [INFO ] [main] Logs - text got successfully
+2022-05-23 13:51:52.435 [INFO ] [main] Logs - checkout successfully
+2022-05-23 13:51:57.192 [INFO ] [main] Logs - details added successfully
+2022-05-23 13:52:15.702 [INFO ] [main] Logs - successfully hover
+2022-05-23 13:52:16.166 [INFO ] [main] Logs - successfully clicked
+2022-05-23 13:52:21.110 [INFO ] [main] Logs - successfully added email
+2022-05-23 13:52:21.366 [INFO ] [main] Logs - successfully added password
+2022-05-23 13:52:22.946 [INFO ] [main] Logs - successfully submitted
+2022-05-23 13:52:25.024 [INFO ] [main] Logs - successfully got error massage
+2022-05-23 13:52:25.392 [INFO ] [main] Logs - successfully submitted
+2022-05-23 13:52:25.460 [INFO ] [main] Logs - successfully verified

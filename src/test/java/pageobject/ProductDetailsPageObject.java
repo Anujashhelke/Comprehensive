@@ -37,6 +37,7 @@ import uistore.StoresUi;
 
 					public void hoverOndecor() {
 						helper.action(DecorUi.decor);
+						log.info("successfully hover");
 						
 					}
 
@@ -44,6 +45,7 @@ import uistore.StoresUi;
 
 					public void clickOnDoormat() {
 						helper.click(DecorUi.doormat);
+						log.info("successfully clicked");
 						
 					}
                     
@@ -74,6 +76,7 @@ import uistore.StoresUi;
 					public void getdimension(String string) {
 						helper.explicitWaitOfvisibilityOfElementLocated(DecorUi.dimensions, 50);
 					helper.getText(DecorUi.dimensions);
+					log.info("successfully got");
 						
 					}
 
@@ -81,6 +84,7 @@ import uistore.StoresUi;
 
 					public void clickOnProduct() {
 					helper.click(DecorUi.mat);
+					log.info("successfully clicked");
 						
 					}
 
@@ -88,6 +92,7 @@ import uistore.StoresUi;
 
 					public void textContains(String string) {
 						helper.getPageSource(string);
+						log.info("successfully verified text");
 						
 					}
 					

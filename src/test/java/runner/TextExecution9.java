@@ -36,31 +36,41 @@ import pageobject.CarriersPageObject;
 							driver.get(read.getUrl());
 							CarriersPageObject l=new CarriersPageObject(driver);
 							extent.createReport();
-							extent.createTest("home page 3");
+							extent.createTest(getClass().getSimpleName());
 							snap=new Snapshot();
 							extent.logPass("successfully launched");
 							l.clickOnTvUnit();
 						     Thread.sleep(3000);
+						     extent.logPass("successfully clicked on tv unit");
 						     l.closePopup();
+						     extent.logPass("closed popup");
 						     l.clickOnUnit();
+						     extent.logPass("successfully clicked on wall unit");
 						     l.getText();
 						     l.hoverOnMaterial();
+						     extent.logPass("successfully hover on material");
 						     Thread.sleep(2000);
 						     l.clickOnCheckBox();
 						     Thread.sleep(2000);
+						     extent.logPass("successfully checked the box");
 						     l.getTextList("Dark");
 						     Thread.sleep(2000);
 						     l.entermail(data.get(0));
 						     Thread.sleep(2000);
+						     extent.logPass("successfully entered email");
 						     l.subscribe();
+						     extent.logPass("successfully suscribe");
+						     
 							
 
 
 					}
-				    @AfterClass
+					@AfterClass
 					public void close() {
-					driver.close();
+						driver.close();
+						 extent.endReport();
 					}
+				 
 					
 
 

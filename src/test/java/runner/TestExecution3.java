@@ -28,23 +28,31 @@ import utility.Snapshot;
 			driver=setUp();
 			driver.get(read.getUrl());
 			HomePage3 h=new HomePage3(driver);
-	       extent.createReport();
-			extent.createTest("home page 3");
+	      extent.createReport();
+			extent.createTest(getClass().getSimpleName());
 			snap=new Snapshot();
 			extent.logPass("successfully launched");
 			h.clickOnLink();
+			extent.logPass("successfully clicked on link");
 			Thread.sleep(3000);
 			h.textContain("TERMS OF SHIPPING AND DELIVERY");
+			extent.logPass("successfully got text TERMS OF SHIPPING AND DELIVERY ");
 			Thread.sleep(3000);
 			h.stories();
+			extent.logPass("successfully clicked on stories");
 			Thread.sleep(3000);
 			h.getUserResponse();
+			extent.logPass("successfully got user response");
 			Thread.sleep(3000);
+			snap.takeSnapshot(driver);
+			
 
 }
 	@AfterClass
 	public void close() {
 		driver.close();
+		extent.endReport();
 	}
+	
 	
 	}

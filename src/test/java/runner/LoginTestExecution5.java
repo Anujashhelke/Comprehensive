@@ -36,25 +36,34 @@ import utility.ExtentReport;
 					LoginPage l=new LoginPage(driver);
 					ArrayList<String> data=excel.excelTest(read.getExcelPath());
 			       extent.createReport();
-					extent.createTest("home page 3");
+					extent.createTest(getClass().getSimpleName());
 					snap=new Snapshot();
 					extent.logPass("successfully launched");
 					l.hover();
+					extent.logPass("successfully hovered");
 					l.login();
+					extent.logPass("successfully clicked");
 					l.enterEmail(data.get(0));
 					l.enterPass(data.get(1));
+					extent.logPass("successfully entered");
 					l.submit();
+					extent.logPass("successfully submit");
 					Thread.sleep(2000);
 					l.errorGet();
+					extent.logPass("successfully got error");
 					//Thread.sleep(2000);
 					l.submit();
+					extent.logPass("successfully try to submit");
 					l.requiredField();
+					extent.logPass("successfully get error massage");
+					
 					
 
 
 			}
 			@AfterClass
 			public void close() {
+				extent.endReport();
 				driver.close();
 			}
 			}

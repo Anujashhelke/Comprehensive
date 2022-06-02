@@ -11,7 +11,7 @@ public class ConfigRead {
 	public Properties properties;
 	String filePath="./config.properties";
 	public ConfigRead()  {
-		File src=new File("C:\\Users\\mindsdet345\\eclipse-workspace\\HybridFramework\\config.properties");
+		File src=new File("C:\\Users\\mindsdet345\\Desktop\\HybridFramework\\config.properties");
 		try {
 			FileInputStream fis=new FileInputStream(src);
 			properties=new Properties();

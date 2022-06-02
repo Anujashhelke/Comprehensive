@@ -36,21 +36,26 @@ import pageobject.LoginPage;
 						driver.get(read.getUrl());
 						HelpCenter l=new HelpCenter(driver);
 						extent.createReport();
-						extent.createTest("home page 3");
+						extent.createTest(getClass().getSimpleName());
 						snap=new Snapshot();
 						extent.logPass("successfully launched");
 						l.clickOnHelp();
 					     Thread.sleep(3000);
+					     extent.logPass("successfully clicked on help center");
 					     l.clickOnLink();
 					     Thread.sleep(2000);
+					     extent.logPass("successfully clicked");
 					     l.getText("Cancellations and Returns");
+					     extent.logPass("successfully verified");
+					    
 						
 
 
 				}
-				@AfterMethod
+				@AfterClass
 				public void close() {
 					driver.close();
+					 extent.endReport();
 				}
 				}
 

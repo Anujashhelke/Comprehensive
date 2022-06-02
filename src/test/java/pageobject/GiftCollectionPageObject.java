@@ -44,29 +44,38 @@ public class GiftCollectionPageObject {
 
 	public void insertAccount() {
 		helper.sentText(GiftCollectionUi.account,"1200");
+		log.info("successfully insert amount");
 		
 	}
 
 	public void getText() {
 	helper.getText(GiftCollectionUi.text);
+	log.info("successfully insert amount");
 		
 	}
 
 	public void insertDate() {
 		helper.select2(GiftCollectionUi.month);
+		log.info("successfully insert month");
 	}
 
 	public void clickNext() {
 		helper.click(GiftCollectionUi.next);
+		log.info("successfully clicked on next");
 		
 	}
 
 	public void sendText(String string, String string2, String string3, String string4, String string5) {
 		helper.sentText(GiftCollectionUi.receipntName, string);
+		log.info("successfully added receipnt name");
 		helper.sentText(GiftCollectionUi.customerName, string2);
+		log.info("successfully added customer name");
 		helper.sentText(GiftCollectionUi.receiprntmail, string3);
+		log.info("successfully added receipnt mail");
 		helper.sentText(GiftCollectionUi.customerMail, string4);
+		log.info("successfully added customer mail");
 		helper.sentText(GiftCollectionUi.phone, string5);
+		log.info("successfully added phone");
 		
 		
 		
@@ -75,7 +84,7 @@ public class GiftCollectionPageObject {
 
 	public void clickConfirm() {
 		helper.clickExecuter(GiftCollectionUi.next);
-		log.info("clicked");
+		log.info("clicked on cinfirm");
 		
 	}
 

@@ -44,6 +44,7 @@ public class HelpCenter {
 
 	public void getText(String string) {
 		helper.getText(HelpCentre.text);
+		log.info("successfully got text");
 	}
 
 }

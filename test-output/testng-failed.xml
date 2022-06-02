@@ -6,8 +6,6 @@
       <class name="runner.TestExecution2">
         <methods>
           <include name="basePageNavigation"/>
-          <include name="setUp"/>
-          <include name="quite"/>
           <include name="close"/>
         </methods>
       </class> <!-- runner.TestExecution2 -->

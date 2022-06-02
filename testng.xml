@@ -7,7 +7,7 @@
       <class name="runner.TestExecution2"/>
       <class name="runner.TestExecution3"/>
       <class name="runner.TestExecution1"/>
-      <class name="utility.BaseClass"/>
+     <class name="runner.TestExecution"/>
       <class name="runner.TextExecution9"/>
       <class name="runner.TestExecution8"/>
       <class name="runner.LoginTestExecution5"/>
